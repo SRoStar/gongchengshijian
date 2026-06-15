@@ -6,7 +6,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import xrd_router, auth_router, visitor_router
+from routers import xrd_router, auth_router, visitor_router, agent_router
 
 app = FastAPI(title="材料 XRD 可视化", version="1.0.0")
 
@@ -23,6 +23,7 @@ app.add_middleware(
 app.include_router(xrd_router, prefix="/api")
 app.include_router(auth_router, prefix="/api")
 app.include_router(visitor_router, prefix="/api")
+app.include_router(agent_router, prefix="/api")
 
 
 @app.get("/")
