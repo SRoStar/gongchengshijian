@@ -4,7 +4,7 @@ import { Message } from 'element-ui'
 import router from '@/router'
 
 const service = axios.create({
-  baseURL: '/pichemdata/api/v1',
+  baseURL: '/pichemdata/api',
   timeout: 15000
 })
 

@@ -46,50 +46,46 @@ async function call(realFn, mockFn) {
 
 // ==================== Auth (always mock) ====================
 
-export async function login({ username, password }) {
-  await delay()
-  const user = mockUsers.find(u =>
-    (u.username === username || u.email === username) && u.password === password
-  )
-  if (!user) throw new Error('用户名或密码错误')
-  const { password: _, ...userInfo } = user
-  return ok({ token: 'mock-token-' + user.id, userInfo })
+/**
+ * 用户登录
+ */
+export function login(data) {
+  return request.post('/login', data)
 }
 
-export async function getUserInfo() {
-  await delay()
-  const raw = localStorage.getItem('userInfo')
-  return ok(raw ? JSON.parse(raw) : null)
+/**
+ * 获取用户信息
+ */
+export function getUserInfo() {
+  return request.get('/user-info')
 }
 
-// ==================== Auth (real with fallback) ====================
-
-export async function register(data) {
-  return call(
-    () => request.post('/auth/register', data),
-    async () => { await delay(); return ok({ success: true }) }
-  )
+/**
+ * 用户注册
+ */
+export function register(data) {
+  return request.post('/register', data)
 }
 
-export async function logout() {
-  return call(
-    () => request.post('/auth/logout'),
-    async () => { await delay(); return ok(null) }
-  )
+/**
+ * 退出登录
+ */
+export function logout() {
+  return request.post('/logout')
 }
 
-export async function getVisitorCount() {
-  return call(
-    () => request.get('/visitor-count'),
-    async () => { await delay(100); return ok(23748) }
-  )
+/**
+ * 获取访问人数
+ */
+export function getVisitorCount() {
+  return request.get('/visitor-count')
 }
 
-export async function changePassword(data) {
-  return call(
-    () => request.post('/auth/change-password', data),
-    async () => { await delay(); return ok({ success: true }) }
-  )
+/**
+ * 修改密码
+ */
+export function changePassword(data) {
+  return request.post('/change-password', data)
 }
 
 // ==================== News ====================
@@ -430,7 +426,7 @@ export async function getCommunityList({ page = 1, size = 10 } = {}) {
 
 export async function xrdProcess({ data, min_angle = 5, max_angle = 90, step = 0.01, sigma = 0.1 } = {}) {
   try {
-    const response = await fetch('/xrd-api/process', {
+    const response = await fetch('/pichemdata/api/process', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ data, min_angle, max_angle, step, sigma })
@@ -448,7 +444,7 @@ export async function xrdProcess({ data, min_angle = 5, max_angle = 90, step = 0
 
 export async function xrdProcessNpy(formData) {
   try {
-    const response = await fetch('/xrd-api/process-npy', { method: 'POST', body: formData })
+    const response = await fetch('/pichemdata/api/upload-npy', { method: 'POST', body: formData })
     if (!response.ok) {
       const err = await response.json().catch(() => ({}))
       throw new Error(err.detail || `XRD NPY 处理失败: ${response.status}`)

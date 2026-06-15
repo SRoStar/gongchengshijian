@@ -2,3 +2,7 @@ backend/db_table
 tmp.*
 node_modules
 dist
+*.log
+.env
+database
+*pycache*

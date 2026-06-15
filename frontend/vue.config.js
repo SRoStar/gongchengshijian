@@ -11,13 +11,9 @@ module.exports = defineConfig({
     open: true,
     proxy: {
       '/pichemdata/api': {
-        target: 'https://aisci.ustc.edu.cn',
-        changeOrigin: true
-      },
-      '/xrd-api': {
         target: 'http://localhost:8000',
         changeOrigin: true,
-        pathRewrite: { '^/xrd-api': '/api' }
+        pathRewrite: { '^/pichemdata/api': '/api' }
       }
     }
   }
