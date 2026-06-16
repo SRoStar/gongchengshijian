@@ -11,14 +11,10 @@ import hashlib
 import secrets
 from pathlib import Path
 
-import sys
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from database.initial_db import get_visitor_count, increment_visitor_count
-
 router = APIRouter(tags=["Auth"])
 
 # 数据库路径
-DB_PATH = Path(__file__).resolve().parent.parent/ "db_table" / "chemistry.db"
+DB_PATH = Path(__file__).resolve().parent.parent / "db_table" / "chemistry.db"
 
 # 简单的 token 存储（生产环境应使用 Redis 等）
 _token_store = {}
@@ -27,6 +23,32 @@ _token_store = {}
 def get_db_path():
     """获取数据库路径"""
     return str(DB_PATH)
+
+
+def get_visitor_count(db_path: str = None) -> int:
+    """获取访客计数"""
+    if db_path is None:
+        db_path = get_db_path()
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+        cursor.execute('SELECT count FROM visitor_count WHERE id = 1')
+        result = cursor.fetchone()
+        if result:
+            return result[0]
+        return 0
+
+
+def increment_visitor_count(db_path: str = None) -> bool:
+    """增加访客计数"""
+    if db_path is None:
+        db_path = get_db_path()
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+        cursor.execute('''
+            UPDATE visitor_count SET count = count + 1 WHERE id = 1
+        ''')
+        conn.commit()
+        return cursor.rowcount > 0
 
 
 def hash_password(password: str) -> str:

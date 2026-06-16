@@ -11,7 +11,11 @@ parent_dir = Path(__file__).resolve().parent.parent
 os.chdir(parent_dir)
 
 def init_db(db_path='chemistry.db'):
-    # init_molecules_table(db_path)
+    # 确保数据库目录存在
+    db_dir = Path(db_path).parent
+    if db_dir and not db_dir.exists():
+        db_dir.mkdir(parents=True, exist_ok=True)
+
     init_users_table(db_path)
     init_visitor_count_table(db_path)
     init_news_table(db_path)
@@ -318,23 +322,6 @@ def init_material_tags_table(db_path='chemistry.db'):
         ''')
         conn.commit()
 
-def get_visitor_count(db_path='chemistry.db'):
-    with sqlite3.connect(db_path) as conn:
-        cursor = conn.cursor()
-        cursor.execute('SELECT count FROM visitor_count WHERE id = 1')
-        result = cursor.fetchone()
-        if result:
-            return result[0]
-        return 0
-
-def increment_visitor_count(db_path='chemistry.db'):
-    with sqlite3.connect(db_path) as conn:
-        cursor = conn.cursor()
-        cursor.execute('''
-            UPDATE visitor_count SET count = count + 1 WHERE id = 1
-        ''')
-        conn.commit()
-
 
 def insert_molecule(db_path, mol_data):
     """
@@ -471,9 +458,12 @@ def init_spectrum_types_table(db_path='chemistry.db'):
         conn.commit()
 
 if __name__ == '__main__':
-    with open("config\config.toml", "rb") as f:
+    config_path = parent_dir / "config" / "config.toml"
+    with open(config_path, "rb") as f:
         config = tomli.load(f)
     db_path = config["database"]["path"]
+    db_path = parent_dir / db_path / 'chemistry.db'
+    db_path = str(db_path)
     # 你的源 JSON 数据
     payload = {
         "inchikey": "VXKWYPOMXBVZSJ-UHFFFAOYSA-N",
@@ -538,9 +528,7 @@ if __name__ == '__main__':
         "rotatableBondCount": 0,
         "tpsa": 0.0
     }
-    
-    db_path = db_path + 'chemistry.db'
-    
+
     # 1. 初始化表
     init_db(db_path)
     
