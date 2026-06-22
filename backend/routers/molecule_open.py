@@ -138,9 +138,7 @@ async def molecule_core_search(request: CoreSearchRequest):
         # 查询当前页数据
         offset = (request.page - 1) * request.size
         data_sql = f"""
-            SELECT id, inchikey, smiles, inchi, iupac, picId, title, molecularName,
-                   displayFormula, exactMass, weight, charge, categoryLabel,
-                   categoryObject, collectTime, author, cas, sourceResearchGroup
+            SELECT *
             FROM molecules
             {where_clause}
             {order_clause}
@@ -152,26 +150,20 @@ async def molecule_core_search(request: CoreSearchRequest):
         # 构建响应数据
         result = []
         for row in rows:
-            result.append({
-                "id": row["id"],
-                "inchikey": row["inchikey"] or "",
-                "smiles": row["smiles"] or "",
-                "inchi": row["inchi"] or "",
-                "iupac": row["iupac"] or "",
-                "picId": row["picId"] or "",
-                "title": row["title"] or "",
-                "molecularName": row["molecularName"] or "",
-                "displayFormula": row["displayFormula"] or "",
-                "exactMass": row["exactMass"],
-                "weight": row["weight"],
-                "charge": row["charge"],
-                "categoryLabel": row["categoryLabel"] or "",
-                "categoryObject": row["categoryObject"] or "",
-                "collectTime": row["collectTime"],
-                "author": row["author"] or "",
-                "cas": row["cas"] or "",
-                "sourceResearchGroup": row["sourceResearchGroup"] or ""
-            })
+            molecule = dict(row)
+
+            # 处理可能为 JSON 的字段
+            json_fields = ["tags", "atoms", "bonds"]
+            for field in json_fields:
+                if field in molecule and molecule[field]:
+                    try:
+                        molecule[field] = json.loads(molecule[field])
+                    except (json.JSONDecodeError, TypeError):
+                        molecule[field] = []
+                else:
+                    molecule[field] = []
+
+            result.append(molecule)
 
         return {
             "code": 200,
