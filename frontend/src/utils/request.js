@@ -8,6 +8,31 @@ const service = axios.create({
   timeout: 15000
 })
 
+// 自动解析响应数据中的 JSON 字符串字段（tags、keywords、atoms、bonds 等）
+function parseJsonFields(obj) {
+  if (Array.isArray(obj)) {
+    return obj.map(parseJsonFields)
+  }
+  if (obj && typeof obj === 'object') {
+    const result = {}
+    for (const [key, value] of Object.entries(obj)) {
+      if (typeof value === 'string' && (value.startsWith('[') || value.startsWith('{'))) {
+        try {
+          result[key] = JSON.parse(value)
+        } catch {
+          result[key] = value
+        }
+      } else if (typeof value === 'object' && value !== null) {
+        result[key] = parseJsonFields(value)
+      } else {
+        result[key] = value
+      }
+    }
+    return result
+  }
+  return obj
+}
+
 // Request interceptor
 service.interceptors.request.use(
   config => {
@@ -31,6 +56,10 @@ service.interceptors.response.use(
     if (res.code !== 200) {
       Message.error(res.msg || 'Request failed')
       return Promise.reject(new Error(res.msg || 'Error'))
+    }
+    // 自动解析 JSON 字符串字段（如 tags、keywords、atoms、bonds）
+    if (res.data) {
+      res.data = parseJsonFields(res.data)
     }
     return res
   },
