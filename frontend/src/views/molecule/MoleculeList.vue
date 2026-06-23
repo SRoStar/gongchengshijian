@@ -93,6 +93,8 @@
         </el-form-item>
       </el-form>
 
+      <!-- Error Message -->
+      <el-alert v-if="searchError" :title="searchError" type="error" show-icon @close="searchError = ''" style="margin-bottom:16px"></el-alert>
       <!-- Table -->
       <el-table :data="list" v-loading="loading" stripe>
         <el-table-column prop="id" :label="$t('molecule.id')" width="80"></el-table-column>
@@ -150,6 +152,7 @@ export default {
     return {
       list: [], total: 0, currentPage: 1, pageSize: 10,
       keyword: '', filterType: '', loading: false,
+      searchError: '',
       // Search mode
       searchTab: 'keyword',
       // Advanced search
@@ -213,7 +216,12 @@ export default {
         }
         this.list = res.data.result
         this.total = res.data.page.total
-      } catch (_) {}
+        this.searchError = ''
+      } catch (e) {
+        this.list = []
+        this.total = 0
+        this.searchError = (e && e.message) ? e.message : '搜索失败'
+      }
       this.loading = false
     },
     handlePageChange(page) { this.currentPage = page; this.fetchData() },

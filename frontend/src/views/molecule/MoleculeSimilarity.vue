@@ -20,6 +20,8 @@
           <el-button type="primary" :loading="loading" @click="doSearch">{{ $t('btn.search') }}</el-button>
         </el-form-item>
       </el-form>
+      <!-- Error -->
+      <el-alert v-if="searchError" :title="searchError" type="error" show-icon @close="searchError = ''" style="margin-top:16px"></el-alert>
       <!-- Results -->
       <el-table v-if="results.length" :data="results" stripe style="margin-top:16px">
         <el-table-column type="index" width="60"></el-table-column>
@@ -57,7 +59,7 @@ export default {
   data() {
     return {
       smiles: '', searchType: '2d', threshold: 0.7,
-      results: [], loading: false, searched: false
+      results: [], loading: false, searched: false, searchError: ''
     }
   },
   methods: {
@@ -67,7 +69,11 @@ export default {
       try {
         const res = await searchSimilarMolecules({ smiles: this.smiles, type: this.searchType, threshold: this.threshold })
         this.results = res.data.result || []
-      } catch (_) {}
+        this.searchError = ''
+      } catch (e) {
+        this.results = []
+        this.searchError = (e && e.message) ? e.message : '搜索失败'
+      }
       this.loading = false
     },
     getColor(val) {

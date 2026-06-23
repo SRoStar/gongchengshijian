@@ -64,8 +64,22 @@ service.interceptors.response.use(
     return res
   },
   error => {
-    Message.error(error.message || 'Network error')
-    return Promise.reject(error)
+    // 尝试从 HTTP 错误响应体中提取后端实际错误信息
+    let msg = ''
+    if (error.response && error.response.data) {
+      const data = error.response.data
+      if (typeof data === 'string') {
+        // FastAPI 默认 500 返回纯文本，直接使用
+        msg = data
+      } else {
+        msg = data.detail || data.msg || data.message || ''
+      }
+    }
+    if (!msg) {
+      msg = error.message || 'Network error'
+    }
+    Message.error(msg)
+    return Promise.reject(new Error(msg))
   }
 )
 

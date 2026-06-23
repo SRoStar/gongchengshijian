@@ -2,7 +2,7 @@
   <div class="home-page">
     <!-- Stats Cards -->
     <el-row :gutter="20" class="stats-row">
-      <el-col :span="6" v-for="stat in stats" :key="stat.label">
+      <el-col :span="8" v-for="stat in stats" :key="stat.label">
         <el-card shadow="hover" class="stat-card" @click.native="$router.push(stat.link)">
           <div class="stat-content">
             <div class="stat-icon" :style="{background: stat.color}">
@@ -99,7 +99,7 @@
 
 <script>
 import * as echarts from 'echarts'
-import { getNewsList, getAnnouncementList, getSummaryByCategory, getMaterialsList, getLiteratureList, getVisitorCount } from '@/api'
+import { getNewsList, getAnnouncementList, getSummaryByCategory, getMaterialsList, getLiteratureList } from '@/api'
 
 export default {
   name: 'Home',
@@ -108,8 +108,7 @@ export default {
       stats: [
         { label: '分子数量', value: 0, icon: 'el-icon-s-data', color: '#409EFF', link: '/molecule' },
         { label: '材料数量', value: 0, icon: 'el-icon-s-grid', color: '#67C23A', link: '/materials' },
-        { label: '文献数量', value: 0, icon: 'el-icon-document', color: '#E6A23C', link: '/literature' },
-        { label: 'API调用次数', value: 0, icon: 'el-icon-connection', color: '#F56C6C', link: '/api-info' }
+        { label: '文献数量', value: 0, icon: 'el-icon-document', color: '#E6A23C', link: '/literature' }
       ],
       statsLoading: false,
       news: [],
@@ -126,22 +125,19 @@ export default {
     async fetchStats() {
       this.statsLoading = true
       try {
-        const [catRes, matRes, litRes, visitorRes] = await Promise.all([
+        const [catRes, matRes, litRes] = await Promise.all([
           getSummaryByCategory(),
           getMaterialsList({ page: 1, size: 1 }),
-          getLiteratureList({ page: 1, size: 1 }),
-          getVisitorCount()
+          getLiteratureList({ page: 1, size: 1 })
         ])
         // Total molecules from category summary
         const totalMolecules = catRes.data.reduce((sum, c) => sum + c.count, 0)
         const totalMaterials = matRes.data.page?.total || 0
         const totalLiterature = litRes.data.page?.total || 0
-        const visitorCount = visitorRes.data || 0
 
         this.stats[0].value = totalMolecules
         this.stats[1].value = totalMaterials
         this.stats[2].value = totalLiterature
-        this.stats[3].value = visitorCount
 
         // Init chart with category data
         this.$nextTick(() => this.initChart(catRes.data))
@@ -150,7 +146,6 @@ export default {
         this.stats[0].value = 12456
         this.stats[1].value = 5832
         this.stats[2].value = 3201
-        this.stats[3].value = '1.2M+'
       }
       this.statsLoading = false
     },

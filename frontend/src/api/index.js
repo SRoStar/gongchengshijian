@@ -38,9 +38,16 @@ async function call(realFn, mockFn) {
   if (USE_MOCK) return mockFn()
   try {
     return await realFn()
-  } catch (_e) {
-    Message.error('该接口后端还未实现')
-    return mockFn()
+  } catch (e) {
+    // 仅当网络完全不可达时（DNS/连接拒绝/超时）降级到 mock
+    // Axios 网络错误特征：message === 'Network Error' 或 code === 'ERR_NETWORK'
+    if (e.message === 'Network Error' || e.code === 'ERR_NETWORK' || e.code === 'ECONNABORTED') {
+      Message.error('该接口后端还未实现')
+      return mockFn()
+    }
+    // 后端可达（HTTP 200 + code!=200 业务错误，或 HTTP 500 服务端错误）
+    // request.js 拦截器已提取并显示了具体错误信息，直接向上抛出
+    throw e
   }
 }
 
@@ -453,5 +460,39 @@ export async function xrdProcessNpy(formData) {
   } catch (_e) {
     Message.error('该接口后端还未实现')
     return ok({ original: { angles: [], intensities: [] }, processed: { angles: [], intensities: [] } })
+  }
+}
+
+// === 新增：NPY 缓存上传 + 分组选择（用于双数据集对比） ===
+
+export async function xrdUploadNpyCache(formData) {
+  try {
+    const response = await fetch('/pichemdata/api/upload-npy-cache', { method: 'POST', body: formData })
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}))
+      throw new Error(err.detail || `NPY 上传失败: ${response.status}`)
+    }
+    return ok(await response.json())
+  } catch (_e) {
+    Message.error('该接口后端还未实现')
+    throw _e
+  }
+}
+
+export async function xrdProcessNpyGroup({ filename, group_index, min_angle = 5, max_angle = 90, step = 0.01, sigma = 0.1 } = {}) {
+  try {
+    const response = await fetch('/pichemdata/api/process-npy-group', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ filename, group_index, min_angle, max_angle, step, sigma })
+    })
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({}))
+      throw new Error(err.detail || `NPY 处理失败: ${response.status}`)
+    }
+    return ok(await response.json())
+  } catch (_e) {
+    Message.error('该接口后端还未实现')
+    throw _e
   }
 }
