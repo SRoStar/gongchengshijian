@@ -123,7 +123,11 @@ async def molecule_core_search(request: CoreSearchRequest):
             where_clause = "WHERE " + " AND ".join(conditions)
 
         # 构建排序子句
-        order_clause = "ORDER BY id DESC"  # 默认排序
+        # 没有筛选条件时按id升序，有条件时默认按id降序
+        if not conditions:
+            order_clause = "ORDER BY id ASC"
+        else:
+            order_clause = "ORDER BY id DESC"  # 默认排序
         if request.sortField:
             valid_fields = ["id", "exactMass", "weight", "charge", "collectTime", "title"]
             if request.sortField in valid_fields:

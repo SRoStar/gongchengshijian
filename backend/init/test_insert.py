@@ -246,10 +246,10 @@ def insert_molecules(db_path='chemistry.db'):
             ''', (
                 m.get('id'), m.get('formula'), m.get('smiles'), m.get('inchi'),
                 m.get('mass'), m.get('volume'), m.get('type'),
-                json.dumps(m.get('tags', [])),  # 处理数组
+                json.dumps(m.get('tags', []), ensure_ascii=False),  # 处理数组
                 m.get('charge'), m.get('spin'),
-                json.dumps(m.get('atoms', [])), # 处理数组
-                json.dumps(m.get('bonds', [])), # 处理数组
+                json.dumps(m.get('atoms', []), ensure_ascii=False), # 处理数组
+                json.dumps(m.get('bonds', []), ensure_ascii=False), # 处理数组
                 m.get('createTime')
             ))
         conn.commit()
@@ -264,7 +264,7 @@ def insert_materials(db_path='chemistry.db'):
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', (
                 m.get('id'), m.get('name'), m.get('formula'), m.get('type'),
-                json.dumps(m.get('tags', [])),  # 处理数组
+                json.dumps(m.get('tags', []), ensure_ascii=False),  # 处理数组
                 m.get('bandGap'), m.get('latticeConstant'),
                 m.get('crystalSystem'), m.get('spaceGroup'),
                 m.get('createTime')
@@ -283,8 +283,8 @@ def insert_literature(db_path='chemistry.db'):
                 l.get('id'), l.get('doi'), l.get('title'), l.get('authors'),
                 l.get('journal'), l.get('year'), l.get('volume'), l.get('issue'),
                 l.get('pages'), l.get('abstract'),
-                json.dumps(l.get('keywords', [])), # 处理数组
-                json.dumps(l.get('tags', []))      # 处理数组
+                json.dumps(l.get('keywords', []), ensure_ascii=False), # 处理数组
+                json.dumps(l.get('tags', []), ensure_ascii=False)      # 处理数组
             ))
         conn.commit()
 
@@ -342,8 +342,8 @@ def insert_spectrum(db_path='chemistry.db'):
                     'conditions': spec.get('conditions'),
                     'xLabel': spec.get('xLabel'),
                     'yLabel': spec.get('yLabel'),
-                    'peaks': json.dumps(spec.get('peaks', [])),           # 数组转JSON字符串
-                    'dataPoints': json.dumps(spec.get('dataPoints', []))  # 数组转JSON字符串
+                    'peaks': json.dumps(spec.get('peaks', []), ensure_ascii=False),           # 数组转JSON字符串
+                    'dataPoints': json.dumps(spec.get('dataPoints', []), ensure_ascii=False)  # 数组转JSON字符串
                 })
         
         cursor.executemany('''
