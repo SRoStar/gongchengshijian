@@ -1,0 +1,5033 @@
+[
+  {
+    "name": "Zn(110)表面",
+    "formula": "Zn",
+    "type": "金属表面",
+    "tags": [
+      "Zn",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.729,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-02-03"
+  },
+  {
+    "name": "W掺杂Co3O4 (5%)",
+    "formula": "Co3O4:W5%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.6,
+    "latticeConstant": 5.242,
+    "crystalSystem": "正交",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-05-05"
+  },
+  {
+    "name": "Ni(110)表面",
+    "formula": "Ni",
+    "type": "金属表面",
+    "tags": [
+      "Ni",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.931,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-01-13"
+  },
+  {
+    "name": "SmSnO3 钙钛矿",
+    "formula": "SmSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sm",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.87,
+    "latticeConstant": 3.889,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-12-08"
+  },
+  {
+    "name": "Cr(100)表面",
+    "formula": "Cr",
+    "type": "金属表面",
+    "tags": [
+      "Cr",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.521,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-20"
+  },
+  {
+    "name": "NdVO3 钙钛矿",
+    "formula": "NdVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.72,
+    "latticeConstant": 4.029,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-03-02"
+  },
+  {
+    "name": "Mn掺杂ZnO (15%)",
+    "formula": "ZnO:Mn15%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.37,
+    "latticeConstant": 5.306,
+    "crystalSystem": "六方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-04-10"
+  },
+  {
+    "name": "YFeO3 钙钛矿",
+    "formula": "YFeO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Fe",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.64,
+    "latticeConstant": 3.911,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-06-09"
+  },
+  {
+    "name": "YTaO3 钙钛矿",
+    "formula": "YTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.41,
+    "latticeConstant": 4.087,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-02-05"
+  },
+  {
+    "name": "BaPbO3 钙钛矿",
+    "formula": "BaPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ba",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.51,
+    "latticeConstant": 3.964,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-04-21"
+  },
+  {
+    "name": "Co掺杂Fe2O3 (5%)",
+    "formula": "Fe2O3:Co5%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Co掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.99,
+    "latticeConstant": 4.513,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-05-29"
+  },
+  {
+    "name": "Mg掺杂Co3O4 (1%)",
+    "formula": "Co3O4:Mg1%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Mg掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.66,
+    "latticeConstant": 4.558,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-11-28"
+  },
+  {
+    "name": "SmNiO3 钙钛矿",
+    "formula": "SmNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sm",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.59,
+    "latticeConstant": 3.848,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-06-06"
+  },
+  {
+    "name": "Mo掺杂CeO2 (1%)",
+    "formula": "CeO2:Mo1%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.52,
+    "latticeConstant": 5.416,
+    "crystalSystem": "单斜",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-04-03"
+  },
+  {
+    "name": "LaZrO3 钙钛矿",
+    "formula": "LaZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.56,
+    "latticeConstant": 3.868,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-09-30"
+  },
+  {
+    "name": "RbCoO3 钙钛矿",
+    "formula": "RbCoO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Co",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.54,
+    "latticeConstant": 3.995,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-01-26"
+  },
+  {
+    "name": "LaSnO3 钙钛矿",
+    "formula": "LaSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.14,
+    "latticeConstant": 3.989,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-07-23"
+  },
+  {
+    "name": "不锈钢316",
+    "formula": "Fe-Cr-Ni",
+    "type": "合金",
+    "tags": [
+      "合金",
+      "金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.638,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-12-26"
+  },
+  {
+    "name": "V掺杂Co3O4 (20%)",
+    "formula": "Co3O4:V20%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "V掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.34,
+    "latticeConstant": 3.353,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-05-01"
+  },
+  {
+    "name": "CsZrO3 钙钛矿",
+    "formula": "CsZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.48,
+    "latticeConstant": 3.935,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-07-27"
+  },
+  {
+    "name": "Mo掺杂Co3O4 (5%)",
+    "formula": "Co3O4:Mo5%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.0,
+    "latticeConstant": 3.182,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-02-12"
+  },
+  {
+    "name": "Nb掺杂CuO (1%)",
+    "formula": "CuO:Nb1%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Nb掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.88,
+    "latticeConstant": 3.662,
+    "crystalSystem": "六方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-12-29"
+  },
+  {
+    "name": "SrTaO3 钙钛矿",
+    "formula": "SrTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.03,
+    "latticeConstant": 3.808,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-04-15"
+  },
+  {
+    "name": "PrMnO3 钙钛矿",
+    "formula": "PrMnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Mn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.97,
+    "latticeConstant": 3.884,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-06-22"
+  },
+  {
+    "name": "Fe掺杂MnO2 (5%)",
+    "formula": "MnO2:Fe5%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Fe掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.67,
+    "latticeConstant": 3.377,
+    "crystalSystem": "三方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-05-11"
+  },
+  {
+    "name": "SiO2 石英",
+    "formula": "SiO2",
+    "type": "金属氧化物",
+    "tags": [
+      "Si",
+      "氧化物",
+      "陶瓷"
+    ],
+    "bandGap": 9.0,
+    "latticeConstant": 4.913,
+    "crystalSystem": "三方",
+    "spaceGroup": "P3221",
+    "createTime": "2025-03-15"
+  },
+  {
+    "name": "Nb掺杂SnO2 (2%)",
+    "formula": "SnO2:Nb2%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Nb掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.11,
+    "latticeConstant": 3.955,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-03-05"
+  },
+  {
+    "name": "Y掺杂NiO (20%)",
+    "formula": "NiO:Y20%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.31,
+    "latticeConstant": 4.849,
+    "crystalSystem": "正交",
+    "spaceGroup": "Im-3m",
+    "createTime": "2026-05-16"
+  },
+  {
+    "name": "Fe掺杂SnO2 (5%)",
+    "formula": "SnO2:Fe5%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Fe掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.44,
+    "latticeConstant": 4.322,
+    "crystalSystem": "正交",
+    "spaceGroup": "I41/amd",
+    "createTime": "2026-03-14"
+  },
+  {
+    "name": "CuO 黑铜矿",
+    "formula": "CuO",
+    "type": "金属氧化物",
+    "tags": [
+      "Cu",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 1.4,
+    "latticeConstant": 4.68,
+    "crystalSystem": "单斜",
+    "spaceGroup": "C2/c",
+    "createTime": "2025-04-21"
+  },
+  {
+    "name": "KSnO3 钙钛矿",
+    "formula": "KSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "K",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.35,
+    "latticeConstant": 3.831,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-05-08"
+  },
+  {
+    "name": "Nb掺杂NiO (15%)",
+    "formula": "NiO:Nb15%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Nb掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.93,
+    "latticeConstant": 5.194,
+    "crystalSystem": "菱方",
+    "spaceGroup": "P63mc",
+    "createTime": "2026-01-12"
+  },
+  {
+    "name": "BaZrO3 钙钛矿",
+    "formula": "BaZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ba",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.47,
+    "latticeConstant": 4.052,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-02-01"
+  },
+  {
+    "name": "BaNbO3 钙钛矿",
+    "formula": "BaNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ba",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.06,
+    "latticeConstant": 4.073,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-11-01"
+  },
+  {
+    "name": "Mo(111)表面",
+    "formula": "Mo",
+    "type": "金属表面",
+    "tags": [
+      "Mo",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.94,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-12-28"
+  },
+  {
+    "name": "W掺杂CeO2 (5%)",
+    "formula": "CeO2:W5%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.16,
+    "latticeConstant": 3.333,
+    "crystalSystem": "单斜",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-12-23"
+  },
+  {
+    "name": "KMnO3 钙钛矿",
+    "formula": "KMnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "K",
+      "Mn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.89,
+    "latticeConstant": 4.003,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-07-28"
+  },
+  {
+    "name": "Pt(211)表面",
+    "formula": "Pt",
+    "type": "金属表面",
+    "tags": [
+      "Pt",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.557,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-09-11"
+  },
+  {
+    "name": "Cu掺杂MnO2 (20%)",
+    "formula": "MnO2:Cu20%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.87,
+    "latticeConstant": 3.386,
+    "crystalSystem": "单斜",
+    "spaceGroup": "C2/m",
+    "createTime": "2026-04-29"
+  },
+  {
+    "name": "Co掺杂ZrO2 (10%)",
+    "formula": "ZrO2:Co10%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Co掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.85,
+    "latticeConstant": 3.04,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-15"
+  },
+  {
+    "name": "Gd掺杂SnO2 (10%)",
+    "formula": "SnO2:Gd10%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.85,
+    "latticeConstant": 5.149,
+    "crystalSystem": "三方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-07-06"
+  },
+  {
+    "name": "Gd掺杂Fe2O3 (3%)",
+    "formula": "Fe2O3:Gd3%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.99,
+    "latticeConstant": 3.693,
+    "crystalSystem": "单斜",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-11-09"
+  },
+  {
+    "name": "SrFeO3 钙钛矿",
+    "formula": "SrFeO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Fe",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.63,
+    "latticeConstant": 4.066,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-05-06"
+  },
+  {
+    "name": "Fe掺杂CuO (5%)",
+    "formula": "CuO:Fe5%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Fe掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.94,
+    "latticeConstant": 3.618,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-12-03"
+  },
+  {
+    "name": "Mn掺杂ZnO (10%)",
+    "formula": "ZnO:Mn10%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.19,
+    "latticeConstant": 3.662,
+    "crystalSystem": "菱方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2025-10-11"
+  },
+  {
+    "name": "氮化钛",
+    "formula": "TiN",
+    "type": "陶瓷",
+    "tags": [
+      "TiN",
+      "陶瓷",
+      "高硬度"
+    ],
+    "bandGap": 0,
+    "latticeConstant": 4.24,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-08-28"
+  },
+  {
+    "name": "GdZrO3 钙钛矿",
+    "formula": "GdZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.49,
+    "latticeConstant": 3.82,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-08-05"
+  },
+  {
+    "name": "CaSnO3 钙钛矿",
+    "formula": "CaSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.48,
+    "latticeConstant": 3.814,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-02-17"
+  },
+  {
+    "name": "MoS2 单层",
+    "formula": "MoS2",
+    "type": "二维材料",
+    "tags": [
+      "MoS2",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 2.19,
+    "latticeConstant": 3.432,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-12-28"
+  },
+  {
+    "name": "Mo掺杂Co3O4 (2%)",
+    "formula": "Co3O4:Mo2%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.65,
+    "latticeConstant": 3.9,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-05-19"
+  },
+  {
+    "name": "Cu(100)表面",
+    "formula": "Cu",
+    "type": "金属表面",
+    "tags": [
+      "Cu",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.169,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-06-15"
+  },
+  {
+    "name": "Al(100)表面",
+    "formula": "Al",
+    "type": "金属表面",
+    "tags": [
+      "Al",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.696,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-01-26"
+  },
+  {
+    "name": "Au(311)表面",
+    "formula": "Au",
+    "type": "金属表面",
+    "tags": [
+      "Au",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.954,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-11-17"
+  },
+  {
+    "name": "Mg(100)表面",
+    "formula": "Mg",
+    "type": "金属表面",
+    "tags": [
+      "Mg",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.077,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-11"
+  },
+  {
+    "name": "Ce掺杂CeO2 (1%)",
+    "formula": "CeO2:Ce1%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Ce掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.11,
+    "latticeConstant": 5.485,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "R-3c",
+    "createTime": "2025-09-16"
+  },
+  {
+    "name": "Co(311)表面",
+    "formula": "Co",
+    "type": "金属表面",
+    "tags": [
+      "Co",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.181,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-04-03"
+  },
+  {
+    "name": "Cr(311)表面",
+    "formula": "Cr",
+    "type": "金属表面",
+    "tags": [
+      "Cr",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.106,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-11"
+  },
+  {
+    "name": "CsPbO3 钙钛矿",
+    "formula": "CsPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.67,
+    "latticeConstant": 3.939,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-03-18"
+  },
+  {
+    "name": "PrNbO3 钙钛矿",
+    "formula": "PrNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.65,
+    "latticeConstant": 3.889,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-10-18"
+  },
+  {
+    "name": "PrCoO3 钙钛矿",
+    "formula": "PrCoO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Co",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.46,
+    "latticeConstant": 4.022,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-05-06"
+  },
+  {
+    "name": "Cr(110)表面",
+    "formula": "Cr",
+    "type": "金属表面",
+    "tags": [
+      "Cr",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.619,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-01-05"
+  },
+  {
+    "name": "Mn(211)表面",
+    "formula": "Mn",
+    "type": "金属表面",
+    "tags": [
+      "Mn",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.158,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-02-14"
+  },
+  {
+    "name": "V(311)表面",
+    "formula": "V",
+    "type": "金属表面",
+    "tags": [
+      "V",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.781,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-29"
+  },
+  {
+    "name": "Al掺杂CuO (10%)",
+    "formula": "CuO:Al10%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Al掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.82,
+    "latticeConstant": 3.821,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-09-21"
+  },
+  {
+    "name": "Gd掺杂Co3O4 (2%)",
+    "formula": "Co3O4:Gd2%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.8,
+    "latticeConstant": 5.023,
+    "crystalSystem": "六方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-04-17"
+  },
+  {
+    "name": "GdSnO3 钙钛矿",
+    "formula": "GdSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.4,
+    "latticeConstant": 4.013,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-09-11"
+  },
+  {
+    "name": "NdCrO3 钙钛矿",
+    "formula": "NdCrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "Cr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.57,
+    "latticeConstant": 4.01,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-03-08"
+  },
+  {
+    "name": "Gd掺杂TiO2 (10%)",
+    "formula": "TiO2:Gd10%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.43,
+    "latticeConstant": 3.352,
+    "crystalSystem": "立方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2026-04-02"
+  },
+  {
+    "name": "YSnO3 钙钛矿",
+    "formula": "YSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.02,
+    "latticeConstant": 4.057,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-10-27"
+  },
+  {
+    "name": "W掺杂NiO (1%)",
+    "formula": "NiO:W1%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.96,
+    "latticeConstant": 5.183,
+    "crystalSystem": "六方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-04-12"
+  },
+  {
+    "name": "CaNbO3 钙钛矿",
+    "formula": "CaNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.79,
+    "latticeConstant": 3.889,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-11-23"
+  },
+  {
+    "name": "RbMnO3 钙钛矿",
+    "formula": "RbMnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Mn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.5,
+    "latticeConstant": 4.026,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-07-13"
+  },
+  {
+    "name": "WO3 三氧化钨",
+    "formula": "WO3",
+    "type": "金属氧化物",
+    "tags": [
+      "W",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 2.8,
+    "latticeConstant": 7.297,
+    "crystalSystem": "单斜",
+    "spaceGroup": "P21/n",
+    "createTime": "2026-01-14"
+  },
+  {
+    "name": "CaNiO3 钙钛矿",
+    "formula": "CaNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.06,
+    "latticeConstant": 4.079,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-03-28"
+  },
+  {
+    "name": "Ce掺杂NiO (10%)",
+    "formula": "NiO:Ce10%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Ce掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.21,
+    "latticeConstant": 3.225,
+    "crystalSystem": "四方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-03-23"
+  },
+  {
+    "name": "Ni(311)表面",
+    "formula": "Ni",
+    "type": "金属表面",
+    "tags": [
+      "Ni",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.552,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-05-17"
+  },
+  {
+    "name": "Ni(211)表面",
+    "formula": "Ni",
+    "type": "金属表面",
+    "tags": [
+      "Ni",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.8,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-02-11"
+  },
+  {
+    "name": "KPbO3 钙钛矿",
+    "formula": "KPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "K",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.44,
+    "latticeConstant": 3.888,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-04-27"
+  },
+  {
+    "name": "SrZrO3 钙钛矿",
+    "formula": "SrZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.39,
+    "latticeConstant": 4.073,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-04-15"
+  },
+  {
+    "name": "Nb掺杂MnO2 (5%)",
+    "formula": "MnO2:Nb5%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Nb掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.58,
+    "latticeConstant": 4.264,
+    "crystalSystem": "正交",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2026-06-07"
+  },
+  {
+    "name": "BaNiO3 钙钛矿",
+    "formula": "BaNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ba",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.34,
+    "latticeConstant": 4.031,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-02-21"
+  },
+  {
+    "name": "V掺杂Co3O4 (15%)",
+    "formula": "Co3O4:V15%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "V掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.89,
+    "latticeConstant": 5.443,
+    "crystalSystem": "菱方",
+    "spaceGroup": "C2/m",
+    "createTime": "2026-06-20"
+  },
+  {
+    "name": "Gd掺杂MnO2 (5%)",
+    "formula": "MnO2:Gd5%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.61,
+    "latticeConstant": 3.664,
+    "crystalSystem": "四方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2026-01-25"
+  },
+  {
+    "name": "PrNiO3 钙钛矿",
+    "formula": "PrNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.11,
+    "latticeConstant": 4.026,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-04-20"
+  },
+  {
+    "name": "CsNiO3 钙钛矿",
+    "formula": "CsNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.94,
+    "latticeConstant": 3.985,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-03-28"
+  },
+  {
+    "name": "YNiO3 钙钛矿",
+    "formula": "YNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.1,
+    "latticeConstant": 4.052,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-11-21"
+  },
+  {
+    "name": "Ag(111)表面",
+    "formula": "Ag",
+    "type": "金属表面",
+    "tags": [
+      "Ag",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.09,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-01-22"
+  },
+  {
+    "name": "W掺杂Co3O4 (10%)",
+    "formula": "Co3O4:W10%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.86,
+    "latticeConstant": 4.93,
+    "crystalSystem": "正交",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-08-12"
+  },
+  {
+    "name": "SrCoO3 钙钛矿",
+    "formula": "SrCoO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Co",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.19,
+    "latticeConstant": 3.922,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-07-26"
+  },
+  {
+    "name": "RbTiO3 钙钛矿",
+    "formula": "RbTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.4,
+    "latticeConstant": 3.842,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-12-08"
+  },
+  {
+    "name": "Mn掺杂Fe2O3 (3%)",
+    "formula": "Fe2O3:Mn3%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.96,
+    "latticeConstant": 3.767,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-09-04"
+  },
+  {
+    "name": "Fe掺杂Co3O4 (3%)",
+    "formula": "Co3O4:Fe3%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Fe掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.1,
+    "latticeConstant": 5.08,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-05-06"
+  },
+  {
+    "name": "KTiO3 钙钛矿",
+    "formula": "KTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "K",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.7,
+    "latticeConstant": 3.993,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-04-23"
+  },
+  {
+    "name": "Cu掺杂Co3O4 (15%)",
+    "formula": "Co3O4:Cu15%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.97,
+    "latticeConstant": 5.449,
+    "crystalSystem": "六方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-05-15"
+  },
+  {
+    "name": "SrNbO3 钙钛矿",
+    "formula": "SrNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.82,
+    "latticeConstant": 4.086,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-12-08"
+  },
+  {
+    "name": "NiTe2 单层",
+    "formula": "NiTe2",
+    "type": "二维材料",
+    "tags": [
+      "NiTe2",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 1.12,
+    "latticeConstant": 3.332,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-05-22"
+  },
+  {
+    "name": "Mn(100)表面",
+    "formula": "Mn",
+    "type": "金属表面",
+    "tags": [
+      "Mn",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.927,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-22"
+  },
+  {
+    "name": "SrPbO3 钙钛矿",
+    "formula": "SrPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.64,
+    "latticeConstant": 4.06,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-02-17"
+  },
+  {
+    "name": "Mn掺杂ZrO2 (1%)",
+    "formula": "ZrO2:Mn1%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.63,
+    "latticeConstant": 4.377,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-03-15"
+  },
+  {
+    "name": "GdVO3 钙钛矿",
+    "formula": "GdVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.22,
+    "latticeConstant": 3.998,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-11-28"
+  },
+  {
+    "name": "Y掺杂CuO (15%)",
+    "formula": "CuO:Y15%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.69,
+    "latticeConstant": 5.445,
+    "crystalSystem": "四方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-05-13"
+  },
+  {
+    "name": "YCoO3 钙钛矿",
+    "formula": "YCoO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Co",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.0,
+    "latticeConstant": 3.9,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-07-18"
+  },
+  {
+    "name": "NdNiO3 钙钛矿",
+    "formula": "NdNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.27,
+    "latticeConstant": 3.878,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-01-31"
+  },
+  {
+    "name": "氮化锆",
+    "formula": "ZrN",
+    "type": "陶瓷",
+    "tags": [
+      "ZrN",
+      "陶瓷",
+      "高硬度"
+    ],
+    "bandGap": 0,
+    "latticeConstant": 4.578,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-09-03"
+  },
+  {
+    "name": "Mo掺杂CuO (2%)",
+    "formula": "CuO:Mo2%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.63,
+    "latticeConstant": 4.758,
+    "crystalSystem": "立方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2025-09-14"
+  },
+  {
+    "name": "La掺杂MnO2 (3%)",
+    "formula": "MnO2:La3%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "La掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.29,
+    "latticeConstant": 3.248,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-11-15"
+  },
+  {
+    "name": "GdFeO3 钙钛矿",
+    "formula": "GdFeO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Fe",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.59,
+    "latticeConstant": 3.873,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-02-09"
+  },
+  {
+    "name": "V掺杂Fe2O3 (10%)",
+    "formula": "Fe2O3:V10%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "V掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.27,
+    "latticeConstant": 4.362,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-04-10"
+  },
+  {
+    "name": "Ni掺杂ZnO (20%)",
+    "formula": "ZnO:Ni20%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.28,
+    "latticeConstant": 4.414,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63mc",
+    "createTime": "2026-06-08"
+  },
+  {
+    "name": "Mn(311)表面",
+    "formula": "Mn",
+    "type": "金属表面",
+    "tags": [
+      "Mn",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.76,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-22"
+  },
+  {
+    "name": "Mn掺杂NiO (5%)",
+    "formula": "NiO:Mn5%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.78,
+    "latticeConstant": 3.21,
+    "crystalSystem": "立方",
+    "spaceGroup": "R-3c",
+    "createTime": "2025-03-11"
+  },
+  {
+    "name": "Cu掺杂ZrO2 (20%)",
+    "formula": "ZrO2:Cu20%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.62,
+    "latticeConstant": 3.867,
+    "crystalSystem": "正交",
+    "spaceGroup": "R-3c",
+    "createTime": "2026-02-27"
+  },
+  {
+    "name": "Cu(311)表面",
+    "formula": "Cu",
+    "type": "金属表面",
+    "tags": [
+      "Cu",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.973,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-08-18"
+  },
+  {
+    "name": "KCrO3 钙钛矿",
+    "formula": "KCrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "K",
+      "Cr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.75,
+    "latticeConstant": 3.961,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-05-11"
+  },
+  {
+    "name": "Cu掺杂CeO2 (2%)",
+    "formula": "CeO2:Cu2%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.91,
+    "latticeConstant": 3.075,
+    "crystalSystem": "三方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-02-25"
+  },
+  {
+    "name": "Co(100)表面",
+    "formula": "Co",
+    "type": "金属表面",
+    "tags": [
+      "Co",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.558,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-06-17"
+  },
+  {
+    "name": "Mg掺杂Fe2O3 (5%)",
+    "formula": "Fe2O3:Mg5%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Mg掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.25,
+    "latticeConstant": 4.057,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2026-05-30"
+  },
+  {
+    "name": "PrTiO3 钙钛矿",
+    "formula": "PrTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.41,
+    "latticeConstant": 4.067,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-04-01"
+  },
+  {
+    "name": "CaTiO3 钙钛矿",
+    "formula": "CaTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.69,
+    "latticeConstant": 3.986,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-02-16"
+  },
+  {
+    "name": "CaPbO3 钙钛矿",
+    "formula": "CaPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.13,
+    "latticeConstant": 4.031,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-08-22"
+  },
+  {
+    "name": "GdNbO3 钙钛矿",
+    "formula": "GdNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.8,
+    "latticeConstant": 4.041,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-03-27"
+  },
+  {
+    "name": "WSe2 单层",
+    "formula": "WSe2",
+    "type": "二维材料",
+    "tags": [
+      "WSe2",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 1.01,
+    "latticeConstant": 3.032,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-04-06"
+  },
+  {
+    "name": "GdTiO3 钙钛矿",
+    "formula": "GdTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.27,
+    "latticeConstant": 4.027,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-06-12"
+  },
+  {
+    "name": "碳化硅",
+    "formula": "SiC",
+    "type": "陶瓷",
+    "tags": [
+      "SiC",
+      "陶瓷",
+      "高硬度"
+    ],
+    "bandGap": 2.4,
+    "latticeConstant": 3.081,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-07-26"
+  },
+  {
+    "name": "Zn(211)表面",
+    "formula": "Zn",
+    "type": "金属表面",
+    "tags": [
+      "Zn",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.689,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-18"
+  },
+  {
+    "name": "PrSnO3 钙钛矿",
+    "formula": "PrSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.37,
+    "latticeConstant": 4.072,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-02-26"
+  },
+  {
+    "name": "黄铜",
+    "formula": "Cu-Zn",
+    "type": "合金",
+    "tags": [
+      "合金",
+      "金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.518,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-08-23"
+  },
+  {
+    "name": "NdNbO3 钙钛矿",
+    "formula": "NdNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.71,
+    "latticeConstant": 4.032,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-05-03"
+  },
+  {
+    "name": "Ni掺杂MnO2 (20%)",
+    "formula": "MnO2:Ni20%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.14,
+    "latticeConstant": 4.1,
+    "crystalSystem": "立方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-05-02"
+  },
+  {
+    "name": "SmNbO3 钙钛矿",
+    "formula": "SmNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sm",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.29,
+    "latticeConstant": 3.824,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-12-28"
+  },
+  {
+    "name": "YCrO3 钙钛矿",
+    "formula": "YCrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Cr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.85,
+    "latticeConstant": 4.08,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-09-23"
+  },
+  {
+    "name": "SrSnO3 钙钛矿",
+    "formula": "SrSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.37,
+    "latticeConstant": 4.041,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-05-10"
+  },
+  {
+    "name": "LaTaO3 钙钛矿",
+    "formula": "LaTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.88,
+    "latticeConstant": 3.87,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-01-23"
+  },
+  {
+    "name": "Fe掺杂Fe2O3 (2%)",
+    "formula": "Fe2O3:Fe2%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Fe掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.06,
+    "latticeConstant": 4.801,
+    "crystalSystem": "单斜",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-06-05"
+  },
+  {
+    "name": "Ni掺杂NiO (20%)",
+    "formula": "NiO:Ni20%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.57,
+    "latticeConstant": 4.968,
+    "crystalSystem": "正交",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-05-25"
+  },
+  {
+    "name": "PrVO3 钙钛矿",
+    "formula": "PrVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.66,
+    "latticeConstant": 3.916,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-06-01"
+  },
+  {
+    "name": "Co掺杂SnO2 (1%)",
+    "formula": "SnO2:Co1%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Co掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.99,
+    "latticeConstant": 4.466,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-01-10"
+  },
+  {
+    "name": "V掺杂ZrO2 (2%)",
+    "formula": "ZrO2:V2%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "V掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.25,
+    "latticeConstant": 3.268,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2026-03-29"
+  },
+  {
+    "name": "Y掺杂TiO2 (5%)",
+    "formula": "TiO2:Y5%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.72,
+    "latticeConstant": 3.178,
+    "crystalSystem": "四方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2026-05-28"
+  },
+  {
+    "name": "Mn(111)表面",
+    "formula": "Mn",
+    "type": "金属表面",
+    "tags": [
+      "Mn",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.669,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-04-03"
+  },
+  {
+    "name": "Co掺杂MnO2 (10%)",
+    "formula": "MnO2:Co10%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Co掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.14,
+    "latticeConstant": 3.585,
+    "crystalSystem": "立方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-10-28"
+  },
+  {
+    "name": "Ce掺杂Fe2O3 (15%)",
+    "formula": "Fe2O3:Ce15%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Ce掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.95,
+    "latticeConstant": 4.452,
+    "crystalSystem": "单斜",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-10-25"
+  },
+  {
+    "name": "Mg掺杂TiO2 (5%)",
+    "formula": "TiO2:Mg5%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "Mg掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.9,
+    "latticeConstant": 4.029,
+    "crystalSystem": "菱方",
+    "spaceGroup": "R-3c",
+    "createTime": "2026-04-30"
+  },
+  {
+    "name": "Ni掺杂ZrO2 (2%)",
+    "formula": "ZrO2:Ni2%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.94,
+    "latticeConstant": 4.301,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-06-10"
+  },
+  {
+    "name": "Co掺杂Co3O4 (1%)",
+    "formula": "Co3O4:Co1%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Co掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.76,
+    "latticeConstant": 3.231,
+    "crystalSystem": "四方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2026-01-21"
+  },
+  {
+    "name": "V掺杂TiO2 (3%)",
+    "formula": "TiO2:V3%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "V掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.92,
+    "latticeConstant": 3.232,
+    "crystalSystem": "单斜",
+    "spaceGroup": "R-3c",
+    "createTime": "2026-02-09"
+  },
+  {
+    "name": "Ti(211)表面",
+    "formula": "Ti",
+    "type": "金属表面",
+    "tags": [
+      "Ti",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.886,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-08"
+  },
+  {
+    "name": "Mg掺杂ZnO (15%)",
+    "formula": "ZnO:Mg15%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Mg掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.97,
+    "latticeConstant": 3.943,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-05-15"
+  },
+  {
+    "name": "Al掺杂ZrO2 (1%)",
+    "formula": "ZrO2:Al1%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Al掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.7,
+    "latticeConstant": 4.813,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-12-21"
+  },
+  {
+    "name": "NdTiO3 钙钛矿",
+    "formula": "NdTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.36,
+    "latticeConstant": 3.866,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-02-06"
+  },
+  {
+    "name": "Ce掺杂CuO (2%)",
+    "formula": "CuO:Ce2%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Ce掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.36,
+    "latticeConstant": 5.194,
+    "crystalSystem": "四方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-03-19"
+  },
+  {
+    "name": "NdCoO3 钙钛矿",
+    "formula": "NdCoO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "Co",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.82,
+    "latticeConstant": 4.071,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-10-30"
+  },
+  {
+    "name": "YNbO3 钙钛矿",
+    "formula": "YNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.34,
+    "latticeConstant": 4.084,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-02-14"
+  },
+  {
+    "name": "NdFeO3 钙钛矿",
+    "formula": "NdFeO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "Fe",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.46,
+    "latticeConstant": 3.826,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-01-19"
+  },
+  {
+    "name": "Mo掺杂TiO2 (2%)",
+    "formula": "TiO2:Mo2%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.73,
+    "latticeConstant": 4.867,
+    "crystalSystem": "六方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-08-11"
+  },
+  {
+    "name": "SmTaO3 钙钛矿",
+    "formula": "SmTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sm",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.82,
+    "latticeConstant": 3.896,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-09-16"
+  },
+  {
+    "name": "Ag(211)表面",
+    "formula": "Ag",
+    "type": "金属表面",
+    "tags": [
+      "Ag",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.823,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-08-23"
+  },
+  {
+    "name": "Zn(100)表面",
+    "formula": "Zn",
+    "type": "金属表面",
+    "tags": [
+      "Zn",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.604,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-02-22"
+  },
+  {
+    "name": "因瓦合金",
+    "formula": "Fe-Ni",
+    "type": "合金",
+    "tags": [
+      "合金",
+      "金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.872,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-04-07"
+  },
+  {
+    "name": "RbTaO3 钙钛矿",
+    "formula": "RbTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.83,
+    "latticeConstant": 4.068,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-06-18"
+  },
+  {
+    "name": "CsTiO3 钙钛矿",
+    "formula": "CsTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.32,
+    "latticeConstant": 3.953,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-05-14"
+  },
+  {
+    "name": "PrZrO3 钙钛矿",
+    "formula": "PrZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.17,
+    "latticeConstant": 3.877,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-07-15"
+  },
+  {
+    "name": "Mg(211)表面",
+    "formula": "Mg",
+    "type": "金属表面",
+    "tags": [
+      "Mg",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.195,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-28"
+  },
+  {
+    "name": "CaTaO3 钙钛矿",
+    "formula": "CaTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.96,
+    "latticeConstant": 3.899,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-03-23"
+  },
+  {
+    "name": "碳化钨",
+    "formula": "WC",
+    "type": "陶瓷",
+    "tags": [
+      "WC",
+      "陶瓷",
+      "高硬度"
+    ],
+    "bandGap": 0,
+    "latticeConstant": 2.906,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-11"
+  },
+  {
+    "name": "SnS2 单层",
+    "formula": "SnS2",
+    "type": "二维材料",
+    "tags": [
+      "SnS2",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 1.05,
+    "latticeConstant": 3.471,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-06-09"
+  },
+  {
+    "name": "CsSnO3 钙钛矿",
+    "formula": "CsSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.32,
+    "latticeConstant": 3.877,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-04-16"
+  },
+  {
+    "name": "Mn掺杂Co3O4 (1%)",
+    "formula": "Co3O4:Mn1%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.22,
+    "latticeConstant": 4.591,
+    "crystalSystem": "三方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-08-27"
+  },
+  {
+    "name": "Mo(211)表面",
+    "formula": "Mo",
+    "type": "金属表面",
+    "tags": [
+      "Mo",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.868,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-01"
+  },
+  {
+    "name": "Al掺杂MnO2 (10%)",
+    "formula": "MnO2:Al10%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Al掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.38,
+    "latticeConstant": 4.493,
+    "crystalSystem": "正交",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-05-31"
+  },
+  {
+    "name": "V(211)表面",
+    "formula": "V",
+    "type": "金属表面",
+    "tags": [
+      "V",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.962,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-12-14"
+  },
+  {
+    "name": "LaTiO3 钙钛矿",
+    "formula": "LaTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.76,
+    "latticeConstant": 3.906,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-03-25"
+  },
+  {
+    "name": "MoSe2 单层",
+    "formula": "MoSe2",
+    "type": "二维材料",
+    "tags": [
+      "MoSe2",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 2.4,
+    "latticeConstant": 3.383,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-10-24"
+  },
+  {
+    "name": "CsMnO3 钙钛矿",
+    "formula": "CsMnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Mn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.57,
+    "latticeConstant": 3.829,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-08-24"
+  },
+  {
+    "name": "Y掺杂MnO2 (5%)",
+    "formula": "MnO2:Y5%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.59,
+    "latticeConstant": 5.106,
+    "crystalSystem": "正交",
+    "spaceGroup": "R-3c",
+    "createTime": "2026-02-27"
+  },
+  {
+    "name": "Ti(311)表面",
+    "formula": "Ti",
+    "type": "金属表面",
+    "tags": [
+      "Ti",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.807,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-06-07"
+  },
+  {
+    "name": "ZnO 纤锌矿",
+    "formula": "ZnO",
+    "type": "金属氧化物",
+    "tags": [
+      "Zn",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 3.37,
+    "latticeConstant": 3.249,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-12-13"
+  },
+  {
+    "name": "Ni掺杂Fe2O3 (20%)",
+    "formula": "Fe2O3:Ni20%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.26,
+    "latticeConstant": 4.672,
+    "crystalSystem": "正交",
+    "spaceGroup": "R-3c",
+    "createTime": "2025-09-17"
+  },
+  {
+    "name": "V掺杂CeO2 (2%)",
+    "formula": "CeO2:V2%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "V掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.81,
+    "latticeConstant": 4.134,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-06-21"
+  },
+  {
+    "name": "KVO3 钙钛矿",
+    "formula": "KVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "K",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.88,
+    "latticeConstant": 3.838,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-05-16"
+  },
+  {
+    "name": "镍铬合金",
+    "formula": "Ni-Cr",
+    "type": "合金",
+    "tags": [
+      "合金",
+      "金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.685,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-07"
+  },
+  {
+    "name": "Ni掺杂CuO (2%)",
+    "formula": "CuO:Ni2%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.99,
+    "latticeConstant": 3.039,
+    "crystalSystem": "立方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2026-02-25"
+  },
+  {
+    "name": "Ce掺杂MnO2 (5%)",
+    "formula": "MnO2:Ce5%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Ce掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.72,
+    "latticeConstant": 4.61,
+    "crystalSystem": "立方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-07-03"
+  },
+  {
+    "name": "W(111)表面",
+    "formula": "W",
+    "type": "金属表面",
+    "tags": [
+      "W",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.815,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-05-31"
+  },
+  {
+    "name": "CaZrO3 钙钛矿",
+    "formula": "CaZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.47,
+    "latticeConstant": 3.883,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-11-03"
+  },
+  {
+    "name": "Al掺杂CeO2 (10%)",
+    "formula": "CeO2:Al10%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Al掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.26,
+    "latticeConstant": 3.863,
+    "crystalSystem": "六方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2026-01-26"
+  },
+  {
+    "name": "YPbO3 钙钛矿",
+    "formula": "YPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.01,
+    "latticeConstant": 4.012,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-01-14"
+  },
+  {
+    "name": "Ni掺杂SnO2 (5%)",
+    "formula": "SnO2:Ni5%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.25,
+    "latticeConstant": 3.221,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-07-21"
+  },
+  {
+    "name": "Mo掺杂CeO2 (10%)",
+    "formula": "CeO2:Mo10%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.76,
+    "latticeConstant": 3.156,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "P63mc",
+    "createTime": "2026-01-09"
+  },
+  {
+    "name": "CsVO3 钙钛矿",
+    "formula": "CsVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.25,
+    "latticeConstant": 3.881,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-01-10"
+  },
+  {
+    "name": "La掺杂ZnO (20%)",
+    "formula": "ZnO:La20%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "La掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.82,
+    "latticeConstant": 3.196,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2026-04-14"
+  },
+  {
+    "name": "Y掺杂Fe2O3 (1%)",
+    "formula": "Fe2O3:Y1%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.88,
+    "latticeConstant": 4.294,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-09-21"
+  },
+  {
+    "name": "La掺杂Co3O4 (3%)",
+    "formula": "Co3O4:La3%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "La掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.89,
+    "latticeConstant": 5.422,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-06-02"
+  },
+  {
+    "name": "Ni掺杂Co3O4 (2%)",
+    "formula": "Co3O4:Ni2%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.2,
+    "latticeConstant": 5.319,
+    "crystalSystem": "四方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-05-23"
+  },
+  {
+    "name": "Y掺杂Co3O4 (1%)",
+    "formula": "Co3O4:Y1%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.72,
+    "latticeConstant": 5.476,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "R-3c",
+    "createTime": "2025-06-07"
+  },
+  {
+    "name": "Pt(100)表面",
+    "formula": "Pt",
+    "type": "金属表面",
+    "tags": [
+      "Pt",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.639,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-02-26"
+  },
+  {
+    "name": "Al2O3 刚玉",
+    "formula": "Al2O3",
+    "type": "金属氧化物",
+    "tags": [
+      "Al2",
+      "氧化物",
+      "陶瓷"
+    ],
+    "bandGap": 8.7,
+    "latticeConstant": 4.759,
+    "crystalSystem": "三方",
+    "spaceGroup": "R-3c",
+    "createTime": "2026-04-02"
+  },
+  {
+    "name": "Pt(110)表面",
+    "formula": "Pt",
+    "type": "金属表面",
+    "tags": [
+      "Pt",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.712,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-12-09"
+  },
+  {
+    "name": "Bi2Se3 单层",
+    "formula": "Bi2Se3",
+    "type": "二维材料",
+    "tags": [
+      "Bi2Se3",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 1.45,
+    "latticeConstant": 3.272,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-12-16"
+  },
+  {
+    "name": "Al掺杂NiO (15%)",
+    "formula": "NiO:Al15%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Al掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.75,
+    "latticeConstant": 4.985,
+    "crystalSystem": "菱方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-06-22"
+  },
+  {
+    "name": "Pt(111)表面",
+    "formula": "Pt",
+    "type": "金属表面",
+    "tags": [
+      "Pt",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.895,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-15"
+  },
+  {
+    "name": "SrVO3 钙钛矿",
+    "formula": "SrVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.27,
+    "latticeConstant": 3.942,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-12-17"
+  },
+  {
+    "name": "CsNbO3 钙钛矿",
+    "formula": "CsNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.3,
+    "latticeConstant": 3.856,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-10-23"
+  },
+  {
+    "name": "Gd掺杂CeO2 (20%)",
+    "formula": "CeO2:Gd20%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.48,
+    "latticeConstant": 3.184,
+    "crystalSystem": "三方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-03-08"
+  },
+  {
+    "name": "Cu(111)表面",
+    "formula": "Cu",
+    "type": "金属表面",
+    "tags": [
+      "Cu",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.872,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-03"
+  },
+  {
+    "name": "SmTiO3 钙钛矿",
+    "formula": "SmTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sm",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.94,
+    "latticeConstant": 3.945,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-05-20"
+  },
+  {
+    "name": "CaCoO3 钙钛矿",
+    "formula": "CaCoO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Co",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.25,
+    "latticeConstant": 4.035,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-12-31"
+  },
+  {
+    "name": "V掺杂ZnO (1%)",
+    "formula": "ZnO:V1%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "V掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.95,
+    "latticeConstant": 4.41,
+    "crystalSystem": "四方",
+    "spaceGroup": "P63mc",
+    "createTime": "2026-01-01"
+  },
+  {
+    "name": "Co掺杂TiO2 (3%)",
+    "formula": "TiO2:Co3%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "Co掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.73,
+    "latticeConstant": 3.192,
+    "crystalSystem": "立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-08"
+  },
+  {
+    "name": "Mn掺杂TiO2 (3%)",
+    "formula": "TiO2:Mn3%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.28,
+    "latticeConstant": 5.195,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-07-15"
+  },
+  {
+    "name": "Mo掺杂ZrO2 (2%)",
+    "formula": "ZrO2:Mo2%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.54,
+    "latticeConstant": 4.479,
+    "crystalSystem": "正交",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-11-26"
+  },
+  {
+    "name": "La掺杂CeO2 (3%)",
+    "formula": "CeO2:La3%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "La掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.85,
+    "latticeConstant": 4.137,
+    "crystalSystem": "立方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2025-07-28"
+  },
+  {
+    "name": "LaCrO3 钙钛矿",
+    "formula": "LaCrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Cr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.29,
+    "latticeConstant": 4.094,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-10-09"
+  },
+  {
+    "name": "W(211)表面",
+    "formula": "W",
+    "type": "金属表面",
+    "tags": [
+      "W",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.764,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-04-13"
+  },
+  {
+    "name": "SrMnO3 钙钛矿",
+    "formula": "SrMnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Mn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.16,
+    "latticeConstant": 3.918,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-09-28"
+  },
+  {
+    "name": "Mo掺杂MnO2 (2%)",
+    "formula": "MnO2:Mo2%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.89,
+    "latticeConstant": 4.731,
+    "crystalSystem": "四方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-11-01"
+  },
+  {
+    "name": "RbZrO3 钙钛矿",
+    "formula": "RbZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.12,
+    "latticeConstant": 3.854,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-11-14"
+  },
+  {
+    "name": "SrTiO3 钙钛矿",
+    "formula": "SrTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.8,
+    "latticeConstant": 3.874,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-10-11"
+  },
+  {
+    "name": "Cr(211)表面",
+    "formula": "Cr",
+    "type": "金属表面",
+    "tags": [
+      "Cr",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.526,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-04-16"
+  },
+  {
+    "name": "CaCrO3 钙钛矿",
+    "formula": "CaCrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Cr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.48,
+    "latticeConstant": 3.965,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-05-09"
+  },
+  {
+    "name": "Mo(311)表面",
+    "formula": "Mo",
+    "type": "金属表面",
+    "tags": [
+      "Mo",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.819,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-09-17"
+  },
+  {
+    "name": "La掺杂ZrO2 (1%)",
+    "formula": "ZrO2:La1%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "La掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.8,
+    "latticeConstant": 4.071,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-04-04"
+  },
+  {
+    "name": "Pd(311)表面",
+    "formula": "Pd",
+    "type": "金属表面",
+    "tags": [
+      "Pd",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.981,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-17"
+  },
+  {
+    "name": "LaNiO3 钙钛矿",
+    "formula": "LaNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.14,
+    "latticeConstant": 3.812,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-10-22"
+  },
+  {
+    "name": "RbSnO3 钙钛矿",
+    "formula": "RbSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.94,
+    "latticeConstant": 3.968,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-02-25"
+  },
+  {
+    "name": "Ni(111)表面",
+    "formula": "Ni",
+    "type": "金属表面",
+    "tags": [
+      "Ni",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.509,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-06"
+  },
+  {
+    "name": "Nb掺杂Co3O4 (1%)",
+    "formula": "Co3O4:Nb1%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Nb掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.49,
+    "latticeConstant": 4.761,
+    "crystalSystem": "六方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2025-12-14"
+  },
+  {
+    "name": "Cu(211)表面",
+    "formula": "Cu",
+    "type": "金属表面",
+    "tags": [
+      "Cu",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.171,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-09-01"
+  },
+  {
+    "name": "Ni掺杂CeO2 (5%)",
+    "formula": "CeO2:Ni5%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.88,
+    "latticeConstant": 4.528,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-06-06"
+  },
+  {
+    "name": "Fe(100)表面",
+    "formula": "Fe",
+    "type": "金属表面",
+    "tags": [
+      "Fe",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.035,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-04-26"
+  },
+  {
+    "name": "Mo(100)表面",
+    "formula": "Mo",
+    "type": "金属表面",
+    "tags": [
+      "Mo",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.846,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-09-17"
+  },
+  {
+    "name": "Mg(110)表面",
+    "formula": "Mg",
+    "type": "金属表面",
+    "tags": [
+      "Mg",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.688,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-06-30"
+  },
+  {
+    "name": "氮化镓",
+    "formula": "GaN",
+    "type": "陶瓷",
+    "tags": [
+      "GaN",
+      "陶瓷",
+      "高硬度"
+    ],
+    "bandGap": 3.4,
+    "latticeConstant": 3.189,
+    "crystalSystem": "六方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-04-17"
+  },
+  {
+    "name": "In2O3 氧化铟",
+    "formula": "In2O3",
+    "type": "金属氧化物",
+    "tags": [
+      "In2",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 3.0,
+    "latticeConstant": 10.118,
+    "crystalSystem": "立方",
+    "spaceGroup": "Ia-3",
+    "createTime": "2026-04-11"
+  },
+  {
+    "name": "SmZrO3 钙钛矿",
+    "formula": "SmZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sm",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.22,
+    "latticeConstant": 3.992,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-01-28"
+  },
+  {
+    "name": "RbPbO3 钙钛矿",
+    "formula": "RbPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.19,
+    "latticeConstant": 3.883,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-03-05"
+  },
+  {
+    "name": "Ag(311)表面",
+    "formula": "Ag",
+    "type": "金属表面",
+    "tags": [
+      "Ag",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.517,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-04-15"
+  },
+  {
+    "name": "SmPbO3 钙钛矿",
+    "formula": "SmPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sm",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.71,
+    "latticeConstant": 3.997,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-04-12"
+  },
+  {
+    "name": "W掺杂ZnO (10%)",
+    "formula": "ZnO:W10%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.44,
+    "latticeConstant": 4.742,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-19"
+  },
+  {
+    "name": "Al掺杂SnO2 (5%)",
+    "formula": "SnO2:Al5%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Al掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.78,
+    "latticeConstant": 5.184,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-09-06"
+  },
+  {
+    "name": "Mo掺杂ZnO (20%)",
+    "formula": "ZnO:Mo20%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.5,
+    "latticeConstant": 4.388,
+    "crystalSystem": "菱方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-04-14"
+  },
+  {
+    "name": "V(111)表面",
+    "formula": "V",
+    "type": "金属表面",
+    "tags": [
+      "V",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.711,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-09-15"
+  },
+  {
+    "name": "KNbO3 钙钛矿",
+    "formula": "KNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "K",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.38,
+    "latticeConstant": 3.885,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-06-26"
+  },
+  {
+    "name": "W(110)表面",
+    "formula": "W",
+    "type": "金属表面",
+    "tags": [
+      "W",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.8,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-13"
+  },
+  {
+    "name": "RbFeO3 钙钛矿",
+    "formula": "RbFeO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Fe",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.32,
+    "latticeConstant": 3.918,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-05-21"
+  },
+  {
+    "name": "CaVO3 钙钛矿",
+    "formula": "CaVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.59,
+    "latticeConstant": 4.096,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-07-06"
+  },
+  {
+    "name": "Mg掺杂MnO2 (3%)",
+    "formula": "MnO2:Mg3%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Mg掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.52,
+    "latticeConstant": 3.204,
+    "crystalSystem": "三方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-04-15"
+  },
+  {
+    "name": "RbCrO3 钙钛矿",
+    "formula": "RbCrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Rb",
+      "Cr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.09,
+    "latticeConstant": 3.853,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-04-16"
+  },
+  {
+    "name": "CsTaO3 钙钛矿",
+    "formula": "CsTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.04,
+    "latticeConstant": 4.066,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-04-06"
+  },
+  {
+    "name": "Ce掺杂ZrO2 (5%)",
+    "formula": "ZrO2:Ce5%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Ce掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.47,
+    "latticeConstant": 3.498,
+    "crystalSystem": "三方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2026-03-12"
+  },
+  {
+    "name": "Mo掺杂NiO (5%)",
+    "formula": "NiO:Mo5%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.91,
+    "latticeConstant": 3.446,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2025-05-30"
+  },
+  {
+    "name": "SnO2 二氧化锡",
+    "formula": "SnO2",
+    "type": "金属氧化物",
+    "tags": [
+      "Sn",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 3.6,
+    "latticeConstant": 4.738,
+    "crystalSystem": "四方",
+    "spaceGroup": "P42/mnm",
+    "createTime": "2026-05-17"
+  },
+  {
+    "name": "Fe掺杂ZnO (15%)",
+    "formula": "ZnO:Fe15%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Fe掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.01,
+    "latticeConstant": 5.11,
+    "crystalSystem": "单斜",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-06-15"
+  },
+  {
+    "name": "Au(211)表面",
+    "formula": "Au",
+    "type": "金属表面",
+    "tags": [
+      "Au",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.008,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-05-16"
+  },
+  {
+    "name": "LaPbO3 钙钛矿",
+    "formula": "LaPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.71,
+    "latticeConstant": 3.945,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-05-24"
+  },
+  {
+    "name": "WS2 单层",
+    "formula": "WS2",
+    "type": "二维材料",
+    "tags": [
+      "WS2",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 2.44,
+    "latticeConstant": 3.424,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-04-03"
+  },
+  {
+    "name": "LaMnO3 钙钛矿",
+    "formula": "LaMnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Mn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.39,
+    "latticeConstant": 4.066,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-06-17"
+  },
+  {
+    "name": "V2O5 五氧化二钒",
+    "formula": "V2O5",
+    "type": "金属氧化物",
+    "tags": [
+      "V2",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 2.3,
+    "latticeConstant": 11.512,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pmmn",
+    "createTime": "2026-05-20"
+  },
+  {
+    "name": "Co掺杂ZnO (3%)",
+    "formula": "ZnO:Co3%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Co掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.88,
+    "latticeConstant": 4.621,
+    "crystalSystem": "三方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-08-21"
+  },
+  {
+    "name": "Fe掺杂ZrO2 (15%)",
+    "formula": "ZrO2:Fe15%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Fe掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.65,
+    "latticeConstant": 4.623,
+    "crystalSystem": "六方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2026-03-02"
+  },
+  {
+    "name": "NdTaO3 钙钛矿",
+    "formula": "NdTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Nd",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.81,
+    "latticeConstant": 4.048,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-01-08"
+  },
+  {
+    "name": "CsFeO3 钙钛矿",
+    "formula": "CsFeO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Cs",
+      "Fe",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.96,
+    "latticeConstant": 3.963,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-11-26"
+  },
+  {
+    "name": "Mg掺杂CuO (1%)",
+    "formula": "CuO:Mg1%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Mg掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.82,
+    "latticeConstant": 4.365,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "C2/m",
+    "createTime": "2026-04-25"
+  },
+  {
+    "name": "La掺杂Fe2O3 (15%)",
+    "formula": "Fe2O3:La15%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "La掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.16,
+    "latticeConstant": 4.662,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-01-04"
+  },
+  {
+    "name": "Y掺杂NiO (1%)",
+    "formula": "NiO:Y1%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.56,
+    "latticeConstant": 5.439,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2025-11-21"
+  },
+  {
+    "name": "BaTiO3 钙钛矿",
+    "formula": "BaTiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ba",
+      "Ti",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.02,
+    "latticeConstant": 3.836,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-06-05"
+  },
+  {
+    "name": "Pd(111)表面",
+    "formula": "Pd",
+    "type": "金属表面",
+    "tags": [
+      "Pd",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.907,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-04-15"
+  },
+  {
+    "name": "GdTaO3 钙钛矿",
+    "formula": "GdTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.49,
+    "latticeConstant": 3.929,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-09-04"
+  },
+  {
+    "name": "CaFeO3 钙钛矿",
+    "formula": "CaFeO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ca",
+      "Fe",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.11,
+    "latticeConstant": 4.097,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-03-16"
+  },
+  {
+    "name": "MoO3 三氧化钼",
+    "formula": "MoO3",
+    "type": "金属氧化物",
+    "tags": [
+      "Mo",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 3.1,
+    "latticeConstant": 3.962,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-04-02"
+  },
+  {
+    "name": "BaMnO3 钙钛矿",
+    "formula": "BaMnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ba",
+      "Mn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.09,
+    "latticeConstant": 3.983,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-02-16"
+  },
+  {
+    "name": "Cr(111)表面",
+    "formula": "Cr",
+    "type": "金属表面",
+    "tags": [
+      "Cr",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.884,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-06-03"
+  },
+  {
+    "name": "Cu掺杂SnO2 (15%)",
+    "formula": "SnO2:Cu15%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.31,
+    "latticeConstant": 5.367,
+    "crystalSystem": "菱方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-01-09"
+  },
+  {
+    "name": "SrCrO3 钙钛矿",
+    "formula": "SrCrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Sr",
+      "Cr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.56,
+    "latticeConstant": 3.875,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2025-09-12"
+  },
+  {
+    "name": "Cu掺杂NiO (2%)",
+    "formula": "NiO:Cu2%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.97,
+    "latticeConstant": 3.034,
+    "crystalSystem": "四方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2025-02-22"
+  },
+  {
+    "name": "LaNbO3 钙钛矿",
+    "formula": "LaNbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "Nb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.54,
+    "latticeConstant": 3.912,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2026-04-30"
+  },
+  {
+    "name": "Cu掺杂CuO (10%)",
+    "formula": "CuO:Cu10%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.85,
+    "latticeConstant": 4.397,
+    "crystalSystem": "菱方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2026-06-16"
+  },
+  {
+    "name": "Co(110)表面",
+    "formula": "Co",
+    "type": "金属表面",
+    "tags": [
+      "Co",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.159,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-01-30"
+  },
+  {
+    "name": "V(110)表面",
+    "formula": "V",
+    "type": "金属表面",
+    "tags": [
+      "V",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.12,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-01-26"
+  },
+  {
+    "name": "Au(100)表面",
+    "formula": "Au",
+    "type": "金属表面",
+    "tags": [
+      "Au",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.925,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-05-24"
+  },
+  {
+    "name": "W(100)表面",
+    "formula": "W",
+    "type": "金属表面",
+    "tags": [
+      "W",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.16,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-11"
+  },
+  {
+    "name": "Nb掺杂Fe2O3 (10%)",
+    "formula": "Fe2O3:Nb10%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Nb掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.61,
+    "latticeConstant": 4.796,
+    "crystalSystem": "六方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-03-27"
+  },
+  {
+    "name": "TiO2 锐钛矿",
+    "formula": "TiO2",
+    "type": "金属氧化物",
+    "tags": [
+      "Ti",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 3.2,
+    "latticeConstant": 3.785,
+    "crystalSystem": "四方",
+    "spaceGroup": "I41/amd",
+    "createTime": "2026-03-02"
+  },
+  {
+    "name": "Ni掺杂TiO2 (20%)",
+    "formula": "TiO2:Ni20%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "Ni掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.33,
+    "latticeConstant": 3.776,
+    "crystalSystem": "菱方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2025-04-04"
+  },
+  {
+    "name": "Mn掺杂MnO2 (1%)",
+    "formula": "MnO2:Mn1%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.13,
+    "latticeConstant": 3.457,
+    "crystalSystem": "六方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-03-20"
+  },
+  {
+    "name": "W掺杂CuO (15%)",
+    "formula": "CuO:W15%",
+    "type": "金属氧化物",
+    "tags": [
+      "CuO",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.44,
+    "latticeConstant": 3.273,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2026-03-14"
+  },
+  {
+    "name": "Al掺杂Co3O4 (1%)",
+    "formula": "Co3O4:Al1%",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3O4",
+      "Al掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.6,
+    "latticeConstant": 3.318,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2026-04-21"
+  },
+  {
+    "name": "PrTaO3 钙钛矿",
+    "formula": "PrTaO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Pr",
+      "Ta",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.26,
+    "latticeConstant": 4.1,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-05-25"
+  },
+  {
+    "name": "Mn掺杂CeO2 (3%)",
+    "formula": "CeO2:Mn3%",
+    "type": "金属氧化物",
+    "tags": [
+      "CeO2",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.84,
+    "latticeConstant": 4.457,
+    "crystalSystem": "体心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-11-11"
+  },
+  {
+    "name": "Al(211)表面",
+    "formula": "Al",
+    "type": "金属表面",
+    "tags": [
+      "Al",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.573,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-12"
+  },
+  {
+    "name": "Mo掺杂Fe2O3 (3%)",
+    "formula": "Fe2O3:Mo3%",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2O3",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.88,
+    "latticeConstant": 4.582,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-01-28"
+  },
+  {
+    "name": "Cu掺杂ZnO (15%)",
+    "formula": "ZnO:Cu15%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Cu掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.69,
+    "latticeConstant": 3.495,
+    "crystalSystem": "四方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-05-18"
+  },
+  {
+    "name": "Mg掺杂NiO (5%)",
+    "formula": "NiO:Mg5%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Mg掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.88,
+    "latticeConstant": 5.063,
+    "crystalSystem": "立方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-01-21"
+  },
+  {
+    "name": "Pd(100)表面",
+    "formula": "Pd",
+    "type": "金属表面",
+    "tags": [
+      "Pd",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.675,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-10-13"
+  },
+  {
+    "name": "Y掺杂ZrO2 (10%)",
+    "formula": "ZrO2:Y10%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Y掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.53,
+    "latticeConstant": 4.4,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-02-24"
+  },
+  {
+    "name": "W(311)表面",
+    "formula": "W",
+    "type": "金属表面",
+    "tags": [
+      "W",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.946,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-02-10"
+  },
+  {
+    "name": "LaVO3 钙钛矿",
+    "formula": "LaVO3",
+    "type": "钙钛矿",
+    "tags": [
+      "La",
+      "V",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.73,
+    "latticeConstant": 4.041,
+    "crystalSystem": "正交",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-02-24"
+  },
+  {
+    "name": "PtS2 单层",
+    "formula": "PtS2",
+    "type": "二维材料",
+    "tags": [
+      "PtS2",
+      "二维材料",
+      "TMD",
+      "层状"
+    ],
+    "bandGap": 1.28,
+    "latticeConstant": 3.477,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63/mmc",
+    "createTime": "2025-11-09"
+  },
+  {
+    "name": "GdPbO3 钙钛矿",
+    "formula": "GdPbO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Pb",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.35,
+    "latticeConstant": 3.892,
+    "crystalSystem": "正交",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2025-09-30"
+  },
+  {
+    "name": "Gd掺杂NiO (2%)",
+    "formula": "NiO:Gd2%",
+    "type": "金属氧化物",
+    "tags": [
+      "NiO",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.77,
+    "latticeConstant": 3.223,
+    "crystalSystem": "六方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-05-18"
+  },
+  {
+    "name": "YZrO3 钙钛矿",
+    "formula": "YZrO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Y",
+      "Zr",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 1.76,
+    "latticeConstant": 3.977,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pnma",
+    "createTime": "2026-03-07"
+  },
+  {
+    "name": "Ce掺杂ZnO (10%)",
+    "formula": "ZnO:Ce10%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZnO",
+      "Ce掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.72,
+    "latticeConstant": 3.309,
+    "crystalSystem": "四方",
+    "spaceGroup": "C2/m",
+    "createTime": "2025-02-22"
+  },
+  {
+    "name": "Pd(211)表面",
+    "formula": "Pd",
+    "type": "金属表面",
+    "tags": [
+      "Pd",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 4.029,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-02-22"
+  },
+  {
+    "name": "BaSnO3 钙钛矿",
+    "formula": "BaSnO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Ba",
+      "Sn",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 3.27,
+    "latticeConstant": 3.965,
+    "crystalSystem": "四方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-05-01"
+  },
+  {
+    "name": "Ti(110)表面",
+    "formula": "Ti",
+    "type": "金属表面",
+    "tags": [
+      "Ti",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.78,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2025-07-30"
+  },
+  {
+    "name": "GdNiO3 钙钛矿",
+    "formula": "GdNiO3",
+    "type": "钙钛矿",
+    "tags": [
+      "Gd",
+      "Ni",
+      "钙钛矿",
+      "氧化物"
+    ],
+    "bandGap": 2.11,
+    "latticeConstant": 4.063,
+    "crystalSystem": "立方",
+    "spaceGroup": "I4/mcm",
+    "createTime": "2025-06-13"
+  },
+  {
+    "name": "Co(111)表面",
+    "formula": "Co",
+    "type": "金属表面",
+    "tags": [
+      "Co",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.967,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-03-05"
+  },
+  {
+    "name": "Co3O4 四氧化三钴",
+    "formula": "Co3O4",
+    "type": "金属氧化物",
+    "tags": [
+      "Co3",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 1.6,
+    "latticeConstant": 8.08,
+    "crystalSystem": "立方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2026-04-23"
+  },
+  {
+    "name": "Gd掺杂ZrO2 (20%)",
+    "formula": "ZrO2:Gd20%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Gd掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.67,
+    "latticeConstant": 3.019,
+    "crystalSystem": "六方",
+    "spaceGroup": "R-3c",
+    "createTime": "2026-04-17"
+  },
+  {
+    "name": "Nb掺杂ZrO2 (20%)",
+    "formula": "ZrO2:Nb20%",
+    "type": "金属氧化物",
+    "tags": [
+      "ZrO2",
+      "Nb掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.11,
+    "latticeConstant": 4.681,
+    "crystalSystem": "三方",
+    "spaceGroup": "Fd-3m",
+    "createTime": "2026-02-18"
+  },
+  {
+    "name": "Fe2O3 赤铁矿",
+    "formula": "Fe2O3",
+    "type": "金属氧化物",
+    "tags": [
+      "Fe2",
+      "氧化物",
+      "半导体"
+    ],
+    "bandGap": 2.2,
+    "latticeConstant": 5.036,
+    "crystalSystem": "六方",
+    "spaceGroup": "R-3c",
+    "createTime": "2025-11-19"
+  },
+  {
+    "name": "Mo掺杂SnO2 (20%)",
+    "formula": "SnO2:Mo20%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Mo掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 1.66,
+    "latticeConstant": 4.308,
+    "crystalSystem": "四方",
+    "spaceGroup": "Im-3m",
+    "createTime": "2025-08-18"
+  },
+  {
+    "name": "W掺杂TiO2 (3%)",
+    "formula": "TiO2:W3%",
+    "type": "金属氧化物",
+    "tags": [
+      "TiO2",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.35,
+    "latticeConstant": 5.076,
+    "crystalSystem": "六方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-12-02"
+  },
+  {
+    "name": "W掺杂MnO2 (20%)",
+    "formula": "MnO2:W20%",
+    "type": "金属氧化物",
+    "tags": [
+      "MnO2",
+      "W掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 2.23,
+    "latticeConstant": 4.276,
+    "crystalSystem": "立方",
+    "spaceGroup": "P63mc",
+    "createTime": "2025-06-05"
+  },
+  {
+    "name": "Mn掺杂SnO2 (5%)",
+    "formula": "SnO2:Mn5%",
+    "type": "金属氧化物",
+    "tags": [
+      "SnO2",
+      "Mn掺杂",
+      "催化剂",
+      "氧化物"
+    ],
+    "bandGap": 3.92,
+    "latticeConstant": 5.125,
+    "crystalSystem": "四方",
+    "spaceGroup": "Pm-3m",
+    "createTime": "2026-01-25"
+  },
+  {
+    "name": "Ti(100)表面",
+    "formula": "Ti",
+    "type": "金属表面",
+    "tags": [
+      "Ti",
+      "表面",
+      "催化",
+      "过渡金属"
+    ],
+    "bandGap": null,
+    "latticeConstant": 3.843,
+    "crystalSystem": "面心立方",
+    "spaceGroup": "Fm-3m",
+    "createTime": "2026-06-10"
+  }
+]

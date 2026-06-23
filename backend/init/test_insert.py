@@ -413,7 +413,7 @@ if __name__ == "__main__":
     import tomli
     parent_dir = Path(__file__).resolve().parent.parent
     os.chdir(parent_dir)
-    with open("config\config.toml", "rb") as f:
+    with open(parent_dir / "config" / "config.toml", "rb") as f:
         config = tomli.load(f)
     db_path = config["database"]["path"]
     db_path = db_path + 'chemistry.db'
