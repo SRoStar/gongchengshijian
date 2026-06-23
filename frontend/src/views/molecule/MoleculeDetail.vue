@@ -191,49 +191,97 @@ export default {
       })
     },
     initViewer() {
-      if (!this.$refs.viewer || !this.molecule || !window.ChemDoodle) return
+      // 使用全局 ChemDoodle，兼容不同加载方式
+      const ChemDoodleLib = window.ChemDoodle || (typeof ChemDoodle !== 'undefined' ? ChemDoodle : null)
+      if (!this.$refs.viewer || !this.molecule || !ChemDoodleLib) return
       try {
         const mol = this.molecule
-        let canvas = document.createElement('canvas')
-        canvas.width = this.$refs.viewer.clientWidth
-        canvas.height = 350
         this.$refs.viewer.innerHTML = ''
+
+        // Check for MOL file data
+        if (!mol.molFile) {
+          this.$refs.viewer.innerHTML = `
+            <div style="display:flex;align-items:center;justify-content:center;height:350px;background:#f8f9fa;border:1px solid #ebeef5;border-radius:4px;color:#999;flex-direction:column">
+              <div>No 3D structure data available</div>
+              <div style="font-size:12px;margin-top:8px">MOL file required for visualization</div>
+            </div>`
+          return
+        }
+
+        // Create canvas element for ChemDoodle
+        const canvasId = 'chemDoodle3DCanvas'
+        const width = this.$refs.viewer.clientWidth
+        const height = 350
+
+        // Create canvas element directly
+        const canvas = document.createElement('canvas')
+        canvas.id = canvasId
+        canvas.width = width
+        canvas.height = height
+        canvas.style.display = 'block'
         this.$refs.viewer.appendChild(canvas)
 
-        // Build molecule from atoms/bonds or use SMILES
-        let molData
-        if (mol.atoms && mol.bonds) {
-          const cdmMol = new ChemDoodle.structures.Molecule()
-          const scale = 30
-          // Simple layout - arrange atoms in a row
-          const n = mol.atoms.length
-          for (let i = 0; i < n; i++) {
-            const angle = (2 * Math.PI * i) / n
-            const x = 175 + 80 * Math.cos(angle)
-            const y = 175 + 80 * Math.sin(angle)
-            cdmMol.atoms.push(new ChemDoodle.structures.Atom(mol.atoms[i], new ChemDoodle.structures.Point(x, y)))
+        // Use TransformCanvas3D for interactive 3D visualization
+        let transform3D
+        let canvasType = 'TransformCanvas3D'
+        try {
+          transform3D = new ChemDoodleLib.TransformCanvas3D(canvasId, width, height)
+        } catch (e) {
+          console.warn('TransformCanvas3D not available, trying ViewerCanvas3D:', e)
+          canvasType = 'ViewerCanvas3D'
+          try {
+            transform3D = new ChemDoodleLib.ViewerCanvas3D(canvasId, width, height)
+          } catch (e2) {
+            console.warn('ViewerCanvas3D also failed, using 2D ViewerCanvas:', e2)
+            canvasType = 'ViewerCanvas (2D)'
+            transform3D = new ChemDoodleLib.ViewerCanvas(canvasId, width, height)
           }
-          if (mol.bonds) {
-            mol.bonds.forEach(b => {
-              if (b[0] < n && b[1] < n) {
-                cdmMol.bonds.push(new ChemDoodle.structures.Bond(cdmMol.atoms[b[0]], cdmMol.atoms[b[1]], b[2] || 1))
-              }
-            })
-          }
-          molData = cdmMol
-        } else {
-          molData = ChemDoodle.readMOL(ChemDoodle.structures.Molecule.fromSMILES(mol.smiles))
         }
-        const viewer = new ChemDoodle.ViewerCanvas(canvas, this.$refs.viewer.clientWidth, 350)
-        viewer.specs.shapesColor = '#1a4a80'
-        viewer.specs.backgroundColor = '#fff'
-        viewer.specs.atoms_display = true
-        viewer.specs.bonds_width_2D = 0.8
-        viewer.loadMolecule(molData)
+
+        // 在 viewer 上显示当前模式
+        const infoDiv = document.createElement('div')
+        infoDiv.style.cssText = 'position:absolute;top:5px;right:5px;font-size:11px;color:#666;background:rgba(255,255,255,0.8);padding:2px 6px;border-radius:3px;'
+        infoDiv.textContent = canvasType === 'TransformCanvas3D' ? '3D Interactive' : (canvasType === 'ViewerCanvas3D' ? '3D View Only' : '2D View')
+        this.$refs.viewer.appendChild(infoDiv)
+
+        // 如果不是 TransformCanvas3D，添加操作提示
+        if (canvasType !== 'TransformCanvas3D') {
+          const hintDiv = document.createElement('div')
+          hintDiv.style.cssText = 'position:absolute;bottom:5px;left:5px;font-size:11px;color:#999;background:rgba(255,255,255,0.8);padding:2px 6px;border-radius:3px;'
+          hintDiv.textContent = canvasType === 'ViewerCanvas3D' ? '左键:平移 滚轮:缩放' : '2D 模式'
+          this.$refs.viewer.appendChild(hintDiv)
+        }
+
+        // Set 3D representation style
+        if (transform3D.styles) {
+          transform3D.styles.set3DRepresentation && transform3D.styles.set3DRepresentation('Ball and Stick')
+          transform3D.styles.backgroundColor = '#f8f9fa'
+        }
+
+        // Load molecule from MOL file
+        // 处理可能被转义的换行符
+        let molFileContent = mol.molFile
+        if (molFileContent.includes('\\n')) {
+          molFileContent = molFileContent.replace(/\\n/g, '\n')
+        }
+
+        const moleculeData = ChemDoodleLib.readMOL(molFileContent, 1)
+
+        // Load molecule into 3D canvas
+        transform3D.loadMolecule(moleculeData)
+
+        // Store reference for cleanup
+        this.chemDoodleViewer = transform3D
+
       } catch (e) {
-        console.warn('ChemDoodle init failed:', e)
+        console.warn('ChemDoodle 3D init failed:', e)
+        // Fallback to error message
         if (this.$refs.viewer) {
-          this.$refs.viewer.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:350px;background:#f8f9fa;border:1px solid #ebeef5;border-radius:4px;color:#999;">Structure: ' + this.molecule.smiles + '</div>'
+          this.$refs.viewer.innerHTML = `
+            <div style="display:flex;align-items:center;justify-content:center;height:350px;background:#f8f9fa;border:1px solid #ebeef5;border-radius:4px;color:#999;flex-direction:column">
+              <div>Failed to load 3D structure</div>
+              <div style="font-size:12px;margin-top:8px">${e.message}</div>
+            </div>`
         }
       }
     },

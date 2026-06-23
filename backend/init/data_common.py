@@ -195,6 +195,18 @@ def fetch_pubchem_batch(cids: List[int]) -> List[Dict[str, Any]]:
         return []
 
 
+def fetch_pubchem_sdf(cid: int) -> Optional[str]:
+    """从 PubChem 获取 SDF 格式数据（包含 3D 坐标）"""
+    url = f"{PUBCHEM_BASE}/compound/cid/{cid}/sdf"
+    try:
+        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
+        if resp.status_code == 200:
+            return resp.text
+        return None
+    except requests.RequestException:
+        return None
+
+
 def pubchem_to_molecule(rec: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     cid_val = rec.get("CID")
     smiles = rec.get("CanonicalSMILES") or rec.get("ConnectivitySMILES") or ""
@@ -207,6 +219,9 @@ def pubchem_to_molecule(rec: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     mol_type, tags = classify_molecule(smiles, formula)
     atoms, bonds = smiles_to_atoms_bonds(smiles)
     iupac = rec.get("IUPACName") or formula
+
+    # 获取 SDF 数据
+    sdf_content = fetch_pubchem_sdf(cid_val)
 
     return {
         "picId": f"pubchem-{cid_val}",
@@ -230,6 +245,7 @@ def pubchem_to_molecule(rec: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         "spin": 1,
         "atoms": atoms,
         "bonds": bonds,
+        "molFile": sdf_content,  # SDF/MOL 格式数据
         "createTime": (datetime.now() - timedelta(days=random.randint(1, 365))).strftime("%Y-%m-%d"),
         "sourcePath": "pubchem",
         "categoryLabel": "Open database",
@@ -635,9 +651,9 @@ def insert_molecules(db_path: str, records: List[Dict[str, Any]]) -> int:
                     INSERT OR IGNORE INTO molecules
                     (picId, inchikey, canonicalInchikey, smiles, canonicalSmiles,
                      inchi, canonicalInchi, iupac, title, displayFormula, formula,
-                     mass, weight, volume, type, tags, charge, spin, atoms, bonds, createTime,
+                     mass, weight, volume, type, tags, charge, spin, atoms, bonds, molFile, createTime,
                      cid, sourcePath, categoryLabel, categoryObject, author)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                     """,
                     (
                         m.get("picId"),
@@ -660,6 +676,7 @@ def insert_molecules(db_path: str, records: List[Dict[str, Any]]) -> int:
                         m.get("spin", 1),
                         json.dumps(m.get("atoms", []), ensure_ascii=False),
                         json.dumps(m.get("bonds", []), ensure_ascii=False),
+                        m.get("molFile"),  # SDF/MOL 数据
                         m.get("createTime"),
                         m.get("cid"),
                         m.get("sourcePath"),

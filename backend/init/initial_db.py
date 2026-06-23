@@ -251,10 +251,20 @@ def init_molecules_table(db_path='chemistry.db'):
                 collectTime INTEGER,
                 atoms TEXT,
                 bonds TEXT,
+                molFile TEXT,  -- SDF/MOL 格式数据，包含 3D 坐标
                 createTime TEXT
             )
         ''')
         conn.commit()
+
+        # 迁移：如果表已存在但没有 molFile 字段，则添加
+        try:
+            cursor.execute("SELECT molFile FROM molecules LIMIT 1")
+        except sqlite3.OperationalError:
+            # 字段不存在，添加它
+            cursor.execute("ALTER TABLE molecules ADD COLUMN molFile TEXT")
+            conn.commit()
+            print("已添加 molFile 字段到 molecules 表")
 
 def init_materials_table(db_path='chemistry.db'):
     with sqlite3.connect(db_path) as conn:

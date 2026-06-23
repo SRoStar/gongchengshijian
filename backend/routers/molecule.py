@@ -153,7 +153,7 @@ async def get_molecule_detail(molecule_id: int):
 
         cursor.execute(
             """
-            SELECT id, formula, smiles, inchi, mass, volume, type, tags, charge, spin, atoms, bonds, createTime
+            SELECT id, formula, smiles, inchi, mass, volume, type, tags, charge, spin, atoms, bonds, molFile, createTime
             FROM molecules
             WHERE id = ?
             """,
@@ -207,6 +207,7 @@ async def get_molecule_detail(molecule_id: int):
                 "spin": row["spin"],
                 "atoms": atoms,
                 "bonds": bonds,
+                "molFile": row["molFile"],  # SDF/MOL 数据
                 "createTime": row["createTime"] or ""
             }
         }
